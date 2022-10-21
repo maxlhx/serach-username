@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/serach-username/static/css/main.ba5e3fcc.css",
+    "main.js": "/serach-username/static/js/main.6e347c92.js",
+    "static/js/787.28cb0dcd.chunk.js": "/serach-username/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Space-Mono.ttf": "/serach-username/static/media/Space-Mono.8dc9dfb5a618f0d496e9.ttf",
+    "static/media/iconfont.ttf?t=1666191404466": "/serach-username/static/media/iconfont.325e149c630db83f1d17.ttf",
+    "static/media/iconfont.woff?t=1666191404466": "/serach-username/static/media/iconfont.4d08c098df5db712327c.woff",
+    "static/media/iconfont.woff2": "/serach-username/static/media/iconfont.ac630011e79e84d2bf25.woff2",
+    "index.html": "/serach-username/index.html",
+    "main.ba5e3fcc.css.map": "/serach-username/static/css/main.ba5e3fcc.css.map",
+    "main.6e347c92.js.map": "/serach-username/static/js/main.6e347c92.js.map",
+    "787.28cb0dcd.chunk.js.map": "/serach-username/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba5e3fcc.css",
+    "static/js/main.6e347c92.js"
+  ]
+}
