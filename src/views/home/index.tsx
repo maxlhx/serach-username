@@ -69,8 +69,8 @@ export default class index extends Component<Props, State> {
         }
     }
 
-    hanelrDown = (e: any)=>{
-        if(e.key === 'Enter'){
+    hanelrDown = (e: any) => {
+        if (e.key === 'Enter') {
             this.handlerSend()
         }
     }
@@ -104,7 +104,7 @@ export default class index extends Component<Props, State> {
 
 
 
-                            <input  onKeyDown={this.hanelrDown} onChange={this.handlerChange} placeholder='Search Github UserName...' className='search-input' type="text" />
+                            <input onKeyDown={this.hanelrDown} onChange={this.handlerChange} placeholder='Search Github UserName...' className='search-input' type="text" />
                             <button onClick={this.handlerSend} className='search-btn'>Search</button>
                         </div>
                     </div>
@@ -112,6 +112,7 @@ export default class index extends Component<Props, State> {
                         <div className="left-img">
                             <img className='avatar' src={this.state.info.avatar_url ?? "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg2.doubanio.com%2Fview%2Fphoto%2Fsqs%2Fpublic%2Fp2677102402.jpg&refer=http%3A%2F%2Fimg2.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1668352374&t=c2e58e678a2cd7e41543240ab6c5be2a"} alt="" />
                         </div>
+
                         <div className="right-content">
                             <div className="first">
                                 <div className="name-date">
@@ -121,10 +122,11 @@ export default class index extends Component<Props, State> {
                                     <div className="name-date-time">
                                         {'Joined ' + this.getFullTime()}
                                     </div>
+
                                 </div>
                             </div>
                             <div className="second" onClick={this.open}>
-                                {this.state.info.login ? '@' + this.state.info.login : '🫣'}
+                                {this.state.info.login ? '@' + this.state.info.login : 'Not Available'}
                             </div>
                             <div className="last">
                                 {this.state.info.bio ? this.state.info.bio : 'This profile has no bio'}
@@ -160,6 +162,7 @@ export default class index extends Component<Props, State> {
                                 </div>
                             </div>
 
+
                             <div className="outbox custom-font-color">
                                 <div className="innerbox">
                                     <i className='iconfont icon-zuobiao'></i>
@@ -180,6 +183,7 @@ export default class index extends Component<Props, State> {
                                     <span>
                                         {this.state.info.blog ?? 'Not Available'}
                                     </span>
+
                                 </div>
 
                             </div>
